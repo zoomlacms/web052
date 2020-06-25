@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "留言",
+    "usingComponents": {
+        "tab": "/components/tabBar/tabBar"
+    }
+}

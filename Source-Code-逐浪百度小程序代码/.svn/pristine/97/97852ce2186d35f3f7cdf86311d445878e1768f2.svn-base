@@ -1,0 +1,7 @@
+<template name="tmp_header">
+    <view class="header">
+        <text class="header_a"></text>
+        <text class="name">{{name}}</text>
+        <text class="info">{{info}}</text>
+    </view>
+</template>

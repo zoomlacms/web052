@@ -1,0 +1,8 @@
+<view class="container">
+    <view class="logo">
+    </view>
+    <view class="userinfo">
+        <text class="userinfo-nickname">爱逐浪开发助手</text>
+    </view>
+</view>
+<tab check_idx=2></tab>

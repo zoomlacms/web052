@@ -1,0 +1,20 @@
+<view id="new"> 
+        <view class="new">
+            <view class="div_text">
+                <text class="div_text_span">新闻资讯</text>
+                <text class="div_text_p">News Information</text>
+            </view>
+        </view>
+        <view class="new_list">
+            <block s-for="item,idx in newslist">
+                <view catchtap="gonews_detail" data-parentid="{{item.parent_id}}" data-id="{{item.id}}" class="new_list_01">
+                    <image class="new_list_01_img" src="{{item.pic}}"></image>
+                    <view class="new_list_01_div">
+                        <text class="new_list_01_div_span">{{item.name}}</text>
+                        <text class="new_list_01_div_time">{{item.dateline}}</text>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </view>
+<tab check_idx=0 id="tab"></tab>

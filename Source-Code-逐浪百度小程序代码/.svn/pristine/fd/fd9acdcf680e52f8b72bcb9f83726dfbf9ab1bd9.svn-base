@@ -1,0 +1,9 @@
+<view class="tab">
+    <block s-for="item,idx in list">
+        <view data-id="{{item.id}}" data-url="{{item.pagePath}}" class="tab_list" catchtap="tapHandle">
+            <image src="{{item.check!=0?item.selectedIconPath:item.iconPath}}"></image>
+            <text style="color:{{item.check!=0?selectedColor:color}}">{{item.text}}</text>
+            <view style="{{item.ifcounter?'display:block':'display:none'}}" class="counter">{{item.ifcounter?counter_num:'无'}}</view>
+        </view>
+    </block>
+</view>

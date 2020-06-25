@@ -1,0 +1,33 @@
+<view class="news">
+    <import src="../template/tmp_header.swan" />
+    <template is="tmp_header" data="{{header_data}}" />
+
+    <view class="newlist_item">
+        <block s-for="item,idx in list">
+            <view class="newlist_item_li" data-parent_id="{{item.GeneralID}}" data-id="{{item.GeneralID}}" catchtap="go_newdetail">
+                <image class="newlist_item_li_image" src="{{item.TopImg}}"></image>
+                <view class="newlist_item_ul">
+                    <view class="newlist_item_ul_li01">{{item.Title}}</view>
+                    <view class="newlist_item_ul_li02">{{item.Title}}</view>
+                    <view class="newlist_item_ul_li03">
+                        <text class="newlist_item_ul_li03_text">{{item.CreateTime}}</text>
+                        <view class="newlist_item_ul_li03_view">Read</view>
+                    </view>
+                </view>
+            </view>
+        </block>
+    </view>
+    <view class="load_more" style="{{load_more==0?'display:flex;':'display:none;'}}">
+        <image src="/images/load_xiala.png"></image>
+        <text>下拉加载更多</text>
+    </view>
+    <view class="load_more" style="{{load_more==1?'display:flex;':'display:none;'}}">
+        <image class="load_more_img" src="/images/load_more.png"></image>
+        <text>正在加载</text>
+    </view>
+    <view class="load_more" style="{{load_more==2?'display:flex;':'display:none;'}}">
+        <image src="/images/load_nodata.png"></image>
+        <text>暂无数据</text>
+    </view>
+</view> 
+<tab check_idx=1></tab>

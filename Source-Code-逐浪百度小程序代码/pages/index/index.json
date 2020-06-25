@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "雅赏",
+     "usingComponents": {
+        "tab": "/components/tabBar/tabBar"
+    }
+}

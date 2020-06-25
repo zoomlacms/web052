@@ -1,0 +1,22 @@
+{
+    "appid": "20539086",
+    "compilation-args": {
+        "common": {
+            "enhance": true
+        }
+    },
+    "host": "baiduboxapp",
+    "projectname": "逐浪百度小程序",
+    "publish": {
+        "version": "1.0.0"
+    },
+    "setting": {
+        "urlCheck": false
+    },
+    "swan": {
+        "baiduboxapp": {
+            "swanJsVersion": "3.180.14",
+            "extensionJsVersion": "1.13.1"
+        }
+    }
+}

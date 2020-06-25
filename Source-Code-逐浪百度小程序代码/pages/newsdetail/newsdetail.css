@@ -1,0 +1,72 @@
+.content{
+    width: 690rpx;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100rpx auto 0;
+    overflow: hidden;
+}
+.name{
+    font-size: 30rpx;
+    color: #212121;
+    line-height: 40rpx;
+    text-align: center;
+}
+.time{
+    font-size: 24rpx;
+    color: #a8a8a8;
+    margin-top: 30rpx;
+    display: flex;
+    align-items: center;
+}
+.time_img{
+    display: block;
+    width: 32rpx;
+    height: 32rpx;
+    margin-right: 20rpx;
+    float: left;
+}
+.content_text{
+    width: 690rpx;
+    overflow: hidden;
+    margin-top: 30rpx;
+    font-size: 28rpx;
+    color: #545454;
+    line-height: 40rpx;
+    text-align: left;
+    text-indent: 40rpx;
+}
+
+
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 380rpx;
+    width: 100%;
+}
+
+.userinfo-login-btn {
+    font-size: 11px;
+}
+
+.userinfo-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.userinfo-avatar {
+    margin: 20rpx;
+    border-radius: 50%;
+    width: 88rpx;
+    height: 88rpx;
+}
+
+.userinfo-nickname {
+    display: block;
+    color: #aaa;
+    width: 150rpx;
+}

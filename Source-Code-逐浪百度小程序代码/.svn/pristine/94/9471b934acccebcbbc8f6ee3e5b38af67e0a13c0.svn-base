@@ -1,0 +1,114 @@
+@import '../template/tmp_header.css';
+.news{
+    width: 690rpx;
+    margin: 0 auto 125rpx;
+}
+.newlist_item{
+    width: 690rpx;
+    height: auto;
+    margin: 30rpx auto 0;
+}
+.newlist_item_li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 30rpx;
+    margin-bottom: 30rpx;
+}
+.newlist_item_li:last-of-type{
+    border-bottom: 0;
+    margin-bottom: 0rpx;
+    padding-bottom: 0rpx;
+}
+.newlist_item_li_image{
+    display: block;
+    width: 220rpx;
+    height: 163rpx;
+    border: 1px solid #e6e6e6;
+}
+.newlist_item_ul{
+    width: 455rpx;
+    margin-left: 20rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+.newlist_item_ul_li01{
+    width: 425rpx;
+    height: 80rpx;
+    font-size: 30rpx;
+    line-height: 36rpx;
+    color: #212121;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.newlist_item_ul_li02{
+    width: 425rpx;
+    font-size: 28rpx;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 12rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+}
+.newlist_item_ul_li03{
+    width: 425rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16rpx;
+}
+.newlist_item_ul_li03_text{
+    font-size: 24rpx;
+    line-height: 24rpx;
+    color: #bbbbbb;
+}
+.newlist_item_ul_li03_view{
+    font-size: 24rpx;
+    color: #999999;
+    position: relative;
+}
+.newlist_item_ul_li03_view::before{
+    content: " ";
+    display: block;
+    width: 48rpx;
+    height: 1px;
+    background-color: #999999;
+    position: absolute;
+    left: -60rpx;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.load_more{
+    margin: 30rpx auto;
+    font-size: 28rpx;
+    color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.load_more image{
+    display: block;
+    width: 32rpx;
+    height: 32rpx;
+}
+.load_more_img{
+    animation: load_ani 1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+.load_more text{
+    margin-left: 20rpx;
+}
+@keyframes load_ani
+{
+0%   {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}

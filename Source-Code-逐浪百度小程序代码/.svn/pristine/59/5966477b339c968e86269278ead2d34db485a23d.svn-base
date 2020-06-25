@@ -1,0 +1,16 @@
+/**
+ * @file index.css
+ * @author swan
+ */
+.logo {
+    width: 375rpx;
+    height: 100rpx;
+    background-image: url("../../images/smartapp.png");
+    background-size: 375rpx;
+}
+
+.userinfo-nickname {
+    display: block;
+    color: #aaa;
+    width: 210rpx;
+}

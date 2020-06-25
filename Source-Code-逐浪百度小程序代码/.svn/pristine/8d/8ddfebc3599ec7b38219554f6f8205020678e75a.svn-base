@@ -1,0 +1,15 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/news/news",
+        "pages/introduce/introduce",
+        "pages/content/upload",
+        "pages/newsdetail/newsdetail"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "智能小程序",
+        "backgroundTextStyle": "light"
+    }
+}

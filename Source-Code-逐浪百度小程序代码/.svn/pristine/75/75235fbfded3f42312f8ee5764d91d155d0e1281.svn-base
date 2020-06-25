@@ -1,0 +1,7 @@
+<form bindsubmit="formSubmit">
+<textarea rows="5" name="PubContent" placeholder="在此填写你的留言,您可以对我们的服务进行评价!" style="width:100%;padding:5px 8px;background-color:#fff;" maxlength="200"></textarea>
+<view class="weui-btn-area">
+  <button class="weui-btn" type="primary" formType="submit">提交留言</button>
+</view>
+</form>
+<tab check_idx=3></tab>
