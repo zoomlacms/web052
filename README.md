@@ -8,8 +8,6 @@
     - [开放性说明](#开放性说明)
     - [使用说明](#使用说明)
     - [接口配置](#接口配置)
-- [接口文档](#接口文档)
-    - [ZoomlaCLI-Studio接口使用说明](#zoomlacli-studio接口使用说明)
 - [系统运行效果图](#系统运行效果图)
 
 <!-- /TOC -->
@@ -86,12 +84,11 @@ QQ交流群号：
 - 3.更多调试信息请访问 http://Help.z01.com 或 http://bbs.z01.com 讨论。
 
 
-# 接口文档
-## ZoomlaCLI-Studio接口使用说明
- [ZoomlaCLI-Studio接口使用说明](源码与接口使用说明/ZoomlaCLI-Studio接口使用说明.md)
-
 
 # 系统运行效果图
+
+![系统效果图1](demo-show-系统效果图/00.png)
+
 ![系统效果图1](demo-show-系统效果图/01.jpg)
 
 ![系统效果图2](demo-show-系统效果图/02.jpg)
