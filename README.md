@@ -59,6 +59,8 @@ QQ交流群号：
 - 进行深度的二次开发
 - 与逐浪商城、OA、办公、能力中心完美结合
 
+手机百度扫码体验：
+![百度小程序二维码](qrcode.png)
 
 
 # 开放性说明
@@ -97,13 +99,21 @@ update zl_manager set adminpassword='7fef6171469e80d32c0559f88b377245' where adm
 
 # 系统运行效果图
 ![系统效果图1](demo-show-系统效果图/01.jpg)
+
 ![系统效果图2](demo-show-系统效果图/02.jpg)
+
 ![系统效果图3](demo-show-系统效果图/03.jpg)
+
 ![系统效果图3](demo-show-系统效果图/04.jpg)
+
 ![系统效果图3](demo-show-系统效果图/05.jpg)
+
 ![系统效果图3](demo-show-系统效果图/06.jpg)
+
 ![系统效果图3](demo-show-系统效果图/07.jpg)
+
 ![系统效果图3](demo-show-系统效果图/08.jpg)
+
 ![系统效果图3](demo-show-系统效果图/09.jpg)
 
 

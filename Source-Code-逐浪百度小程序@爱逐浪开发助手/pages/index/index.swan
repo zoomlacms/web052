@@ -6,12 +6,11 @@
 				<text class="div_text_p">Template appreciation</text>
 			</view>
 		</view>
-
 		<view class="new_list">
 			<block s-for="item,idx in list">
 				<view catchtap="go_newdetail" data-parentid="{{item.GeneralID}}" data-id="{{item.GeneralID}}"
 					class="new_list_01">
-					<image class="new_list_01_img" src="{{item.Soft_pic}}"></image>
+					<image class="new_list_01_img" s-if="show != item.Soft_pic" src="{{item.Soft_pic}}"></image>
 					<view class="new_list_01_div">
 						<text class="new_list_01_div_span">{{item.Title}}</text>
 						<text class="new_list_01_div_time">{{item.CreateTime}}</text>

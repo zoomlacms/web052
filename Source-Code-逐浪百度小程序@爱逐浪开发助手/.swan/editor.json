@@ -1,28 +1,36 @@
 {
     "editor": {
-        "curPath": "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\index\\index.css",
+        "curPath": "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\content\\upload.swan",
         "expands": [
-            "D:\\App\\百度小程序_爱逐浪开发助手\\pages",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\content",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\template",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\news",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\index",
             "D:\\App\\百度小程序_爱逐浪开发助手\\components",
             "D:\\App\\百度小程序_爱逐浪开发助手\\components\\tabBar",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\index",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\introduce"
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\content",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\introduce",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\news",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\template",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\z01-com"
         ],
         "markdownUploadTimeMap": {},
         "paths": [
-            "D:\\App\\百度小程序_爱逐浪开发助手\\pkginfo.json",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\project.swan.json",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\app.js",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\app.json",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\app.css",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\index\\index.css"
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\news\\news.swan",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\news\\news.js",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\index\\index.js",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\index\\index.swan",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\content\\upload.js",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\content\\upload.swan",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\z01-com\\z01-com.swan"
         ],
         "recentlyFiles": [
-            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\index\\index.css",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\content\\upload.swan",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\z01-com\\z01-com.swan",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\content\\upload.js",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\index\\index.swan",
             "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\index\\index.js",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\news\\news.js",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\news\\news.swan",
+            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\index\\index.css",
             "D:\\App\\百度小程序_爱逐浪开发助手\\pkginfo.json",
             "D:\\App\\百度小程序_爱逐浪开发助手\\app.json",
             "D:\\App\\百度小程序_爱逐浪开发助手\\app.js",
@@ -33,14 +41,8 @@
             "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\introduce\\introduce.js",
             "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\introduce\\introduce.json",
             "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\introduce\\introduce.swan",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\index\\index.swan",
             "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\index\\index.json",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\components\\tabBar\\tabBar.swan",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\components\\tabBar\\tabBar.json",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\components\\tabBar\\tabBar.js",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\components\\tabBar\\tabBar.css",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\news\\news.json",
-            "D:\\App\\百度小程序_爱逐浪开发助手\\pages\\news\\news.js"
+            "D:\\App\\百度小程序_爱逐浪开发助手\\components\\tabBar\\tabBar.swan"
         ]
     }
 }

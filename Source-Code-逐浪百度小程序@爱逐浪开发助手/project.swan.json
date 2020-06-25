@@ -8,15 +8,15 @@
     "host": "baiduboxapp",
     "projectname": "逐浪百度小程序",
     "publish": {
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "setting": {
         "urlCheck": false
     },
     "swan": {
         "baiduboxapp": {
-            "swanJsVersion": "3.180.14",
-            "extensionJsVersion": "1.13.1"
+            "extensionJsVersion": "1.13.1",
+            "swanJsVersion": "3.180.14"
         }
     }
 }

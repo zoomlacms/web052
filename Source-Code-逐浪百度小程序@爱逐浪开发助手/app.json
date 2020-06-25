@@ -4,7 +4,9 @@
         "pages/news/news",
         "pages/introduce/introduce",
         "pages/content/upload",
-        "pages/newsdetail/newsdetail"
+        "pages/newsdetail/newsdetail",
+       "pages/z01-com/z01-com/z01-com",
+        "pages/z01-com/z01-com"        
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",

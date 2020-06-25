@@ -4,4 +4,5 @@
   <button class="weui-btn" type="primary" formType="submit">提交留言</button>
 </view>
 </form>
+<navigator style="line-height:4rem;color:#999;font-size:0.8rem;text-align:center;" url="/pages/z01-com/z01-com" class="weui-grid__label">Powered by Zoomla!逐浪CMS 73ic去上提供云计算支持V1.0</navigator
 <tab check_idx=3></tab>

@@ -6,6 +6,7 @@ Page({
             name:'资讯浏览',
             info:'News Information'
         },
+        show:'https://www.z01.com/UploadFiles/nopic.svg',
         page:1,
         pagesize:10,
         list:[],
