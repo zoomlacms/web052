@@ -5,8 +5,9 @@
 - [Zoomla!逐浪CMS卓越出品](#zoomla逐浪cms卓越出品)
     - [逐浪官方开源精品全站项目052：逐浪百度小程序@爱逐浪开发助手](#逐浪官方开源精品全站项目052逐浪百度小程序爱逐浪开发助手)
     - [本项目介绍](#本项目介绍)
-- [开放性说明](#开放性说明)
+    - [开放性说明](#开放性说明)
     - [使用说明](#使用说明)
+    - [接口配置](#接口配置)
 - [接口文档](#接口文档)
     - [ZoomlaCLI-Studio接口使用说明](#zoomlacli-studio接口使用说明)
     - [本程序目录结构](#本程序目录结构)
@@ -60,10 +61,10 @@ QQ交流群号：
 - 与逐浪商城、OA、办公、能力中心完美结合
 
 手机百度扫码体验：
-![百度小程序二维码](qrcode.png)
+![百度小程序二维码](qrcode.jpg)
 
 
-# 开放性说明
+## 开放性说明
 本项目基于Zoomla!逐浪CMS技术栈开发，可进行深度二次开发，非常方便。
 有道是：
 
@@ -74,26 +75,21 @@ QQ交流群号：
 
 ## 使用说明
 
-- 1.后台路径：/admin/login
+- 1.接口配置应结合Zoomla!逐浪CMS 8.x
 - 2.脚本框架：.net 4.0 集成模式（即IIS进程池应选为集成模式）。
 - 3.数据库：MSSQL 2005(推荐使用MSSQL2016)
 - 4.最低操作系统：windows server 2003
-- 5.wwwroot录下data.bak为数据库还原文件，还原即可。
-- 6.`/config/ConnectionStrings.config`为数据库配置连接。
-- 7.`/Template`为模板配置目录，在此配置模板即可。
-- 8.后台超级管理员默认帐号名为：`admin`，密码：`admin888`，如果登录不上，请在数据库上执行下面语法即可恢复初始`admin888`密码：
-```
-update zl_manager set adminpassword='7fef6171469e80d32c0559f88b377245' where adminid=1  --重设后台admin密码为admin888
-```
-- 9.在win2016、win10、win 2019等系统部署，请注意web.config中删除
-```
-<mimeMap fileExtension=".woff2" mimeType="font/x-woff" />
-```
+
+## 接口配置
+- 1.接口配置文件：`接口配置文件/BDAPP.cshtml`
+- 2.此文件部署应放于逐浪CMS源码目录`/Pages/API/`
+- 3.更多调试信息请访问 http://Help.z01.com 或 http://bbs.z01.com 讨论。
 
 
 # 接口文档
 ## ZoomlaCLI-Studio接口使用说明
  [ZoomlaCLI-Studio接口使用说明](源码与接口使用说明/ZoomlaCLI-Studio接口使用说明.md)
+
 ## 本程序目录结构
  [本程序目录结构](源码与接口使用说明/本程序目录结构.md)
 
